@@ -1,6 +1,17 @@
-paper.js
-Paper.js is an open source vector graphics scripting framework that runs on top of the HTML5 Canvas. It offers a clean Scene Graph / Document Object Model and a lot of powerful functionality to create and work with vector graphics and bezier curves, all neatly wrapped up in a well designed, consistent and clean programming interface.
+# Patatap Clone
 
-howler.js makes working with audio in JavaScript easy and reliable across all platforms.
+This is a simple front-end app that generates circles animations and sound on keydown.
+This app was created to practive with libraries likePaper.js and Howler.js
 
-!["Login Page showing users the app functionality using a progress bar"](https://github.com/shivangna/lhl-final-project/blob/master/Docs/login.png)
+# This clone was built on:
+
+_FRONT-END_
+
+- HTML
+- CSS
+- Paper.js is an open source vector graphics scripting framework that runs on top of the HTML5 Canvas.
+- Howler.js makes working with audio in JavaScript easy and reliable across all platforms.
+
+# Screenshot
+
+!["patatap clone"](https://github.com/Jocelyne1604/patatap/blob/master/patatapclone.gif)
