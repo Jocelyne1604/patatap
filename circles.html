@@ -10,20 +10,14 @@
       src="node_modules/paper/dist/paper-full.js"
     ></script>
     <script type="text/paperscript" canvas="myCanvas">
-          for (var x = 0; x < 1000; x+=100) {
-              for (var y = 0; y < 1000; y+=100){
-              var myCircle = new Path.Circle(new Point(x,y), 10).fillColor = 'yellow';
-          }
-        }
-        var text = new PointText({
-            point: view.center,
-            content: 'Click here to focus and then press some keys.',
-            justification: 'center',
-            fontSize: 15
-        });
-        function onKeyDown(event) {
+
+      function onKeyDown(event) {
           // When a key is pressed, set the content of the text item:
-          text.content = 'The ' + event.key + ' key was pressed!';
+          var maxPoint= new Point(view.size.width, view.size.heigth);
+          var randomPoint= Point.random();
+          var point = maxPoint * randomPoint;
+            console.log(maxPoint);
+          new Path.Circle(point, 10).fillColor = 'yellow';
       }
     </script>
     <meta name="description" content="" />
